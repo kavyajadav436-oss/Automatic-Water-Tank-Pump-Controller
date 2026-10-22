@@ -1,0 +1,21 @@
+
+63. Printing statistics.
+
+=== water_tank_controller ===
+
+   Number of wires:                 10
+   Number of wire bits:             10
+   Number of public wires:           6
+   Number of public wire bits:       6
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  6
+     sky130_fd_sc_hd__buf_1          1
+     sky130_fd_sc_hd__dfxtp_2        2
+     sky130_fd_sc_hd__nor3_2         1
+     sky130_fd_sc_hd__nor3b_2        1
+     sky130_fd_sc_hd__or2_2          1
+
+   Chip area for module '\water_tank_controller': 75.072000
+

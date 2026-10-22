@@ -1,0 +1,12 @@
+VCD info: dumpfile water_tank_controller.vcd opened for output.
+Starting water tank controller tests
+PASS: Reset keeps pump OFF | pump_on=0
+PASS: Tank has sufficient water | pump_on=0
+PASS: Pump starts when water is low | pump_on=1
+PASS: Pump continues while filling | pump_on=1
+PASS: Pump stops when tank is full | pump_on=0
+PASS: Pump stays OFF when full | pump_on=0
+PASS: Pump restarts when water is low | pump_on=1
+PASS: Reset turns pump OFF | pump_on=0
+ALL TESTS PASSED
+submission/tb_water_tank_controller.v:102: $finish called at 160000 (1ps)

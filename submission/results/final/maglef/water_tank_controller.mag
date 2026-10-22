@@ -1,0 +1,98 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1791715937
+<< nwell >>
+rect 1066 2159 7214 8198
+<< obsli1 >>
+rect 1104 2159 7176 8177
+<< obsm1 >>
+rect 842 2128 7438 8208
+<< obsm2 >>
+rect 846 2139 7434 8197
+<< metal3 >>
+rect 0 6128 800 6248
+rect 0 5448 800 5568
+rect 7535 5448 8335 5568
+rect 0 4768 800 4888
+rect 0 4088 800 4208
+<< obsm3 >>
+rect 798 6328 7535 8193
+rect 880 6048 7535 6328
+rect 798 5648 7535 6048
+rect 880 5368 7455 5648
+rect 798 4968 7535 5368
+rect 880 4688 7535 4968
+rect 798 4288 7535 4688
+rect 880 4008 7535 4288
+rect 798 2143 7535 4008
+<< metal4 >>
+rect 1703 2128 2023 8208
+rect 2363 2128 2683 8228
+rect 3221 2128 3541 8208
+rect 3881 2128 4201 8228
+rect 4739 2128 5059 8208
+rect 5399 2128 5719 8228
+rect 6257 2128 6577 8208
+rect 6917 2128 7237 8228
+<< metal5 >>
+rect 1056 7908 7237 8228
+rect 1056 7248 7224 7568
+rect 1056 6413 7237 6733
+rect 1056 5753 7224 6073
+rect 1056 4918 7237 5238
+rect 1056 4258 7224 4578
+rect 1056 3423 7237 3743
+rect 1056 2763 7224 3083
+<< labels >>
+rlabel metal4 s 2363 2128 2683 8228 6 VGND
+port 1 nsew ground bidirectional
+rlabel metal4 s 3881 2128 4201 8228 6 VGND
+port 1 nsew ground bidirectional
+rlabel metal4 s 5399 2128 5719 8228 6 VGND
+port 1 nsew ground bidirectional
+rlabel metal4 s 6917 2128 7237 8228 6 VGND
+port 1 nsew ground bidirectional
+rlabel metal5 s 1056 3423 7237 3743 6 VGND
+port 1 nsew ground bidirectional
+rlabel metal5 s 1056 4918 7237 5238 6 VGND
+port 1 nsew ground bidirectional
+rlabel metal5 s 1056 6413 7237 6733 6 VGND
+port 1 nsew ground bidirectional
+rlabel metal5 s 1056 7908 7237 8228 6 VGND
+port 1 nsew ground bidirectional
+rlabel metal4 s 1703 2128 2023 8208 6 VPWR
+port 2 nsew power bidirectional
+rlabel metal4 s 3221 2128 3541 8208 6 VPWR
+port 2 nsew power bidirectional
+rlabel metal4 s 4739 2128 5059 8208 6 VPWR
+port 2 nsew power bidirectional
+rlabel metal4 s 6257 2128 6577 8208 6 VPWR
+port 2 nsew power bidirectional
+rlabel metal5 s 1056 2763 7224 3083 6 VPWR
+port 2 nsew power bidirectional
+rlabel metal5 s 1056 4258 7224 4578 6 VPWR
+port 2 nsew power bidirectional
+rlabel metal5 s 1056 5753 7224 6073 6 VPWR
+port 2 nsew power bidirectional
+rlabel metal5 s 1056 7248 7224 7568 6 VPWR
+port 2 nsew power bidirectional
+rlabel metal3 s 0 6128 800 6248 6 clk
+port 3 nsew signal input
+rlabel metal3 s 0 4088 800 4208 6 high_level
+port 4 nsew signal input
+rlabel metal3 s 0 4768 800 4888 6 low_level
+port 5 nsew signal input
+rlabel metal3 s 7535 5448 8335 5568 6 pump_on
+port 6 nsew signal output
+rlabel metal3 s 0 5448 800 5568 6 rst
+port 7 nsew signal input
+<< properties >>
+string FIXED_BBOX 0 0 8335 10479
+string LEFclass BLOCK
+string LEFview TRUE
+string GDS_END 155638
+string GDS_FILE /work/runs/water_tank_v2/results/signoff/water_tank_controller.magic.gds
+string GDS_START 72812
+<< end >>
+

@@ -1,0 +1,149 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO water_tank_controller
+  CLASS BLOCK ;
+  FOREIGN water_tank_controller ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 41.675 BY 52.395 ;
+  PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 11.815 10.640 13.415 41.140 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 19.405 10.640 21.005 41.140 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 26.995 10.640 28.595 41.140 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 34.585 10.640 36.185 41.140 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 17.115 36.185 18.715 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 24.590 36.185 26.190 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 32.065 36.185 33.665 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 39.540 36.185 41.140 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met4 ;
+        RECT 8.515 10.640 10.115 41.040 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 16.105 10.640 17.705 41.040 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 23.695 10.640 25.295 41.040 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 31.285 10.640 32.885 41.040 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 13.815 36.120 15.415 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 21.290 36.120 22.890 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 28.765 36.120 30.365 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 36.240 36.120 37.840 ;
+    END
+  END VPWR
+  PIN clk
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.852000 ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 30.640 4.000 31.240 ;
+    END
+  END clk
+  PIN high_level
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.196500 ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 20.440 4.000 21.040 ;
+    END
+  END high_level
+  PIN low_level
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.196500 ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 23.840 4.000 24.440 ;
+    END
+  END low_level
+  PIN pump_on
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.445500 ;
+    PORT
+      LAYER met3 ;
+        RECT 37.675 27.240 41.675 27.840 ;
+    END
+  END pump_on
+  PIN rst
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.196500 ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 27.240 4.000 27.840 ;
+    END
+  END rst
+  OBS
+      LAYER nwell ;
+        RECT 5.330 10.795 36.070 40.990 ;
+      LAYER li1 ;
+        RECT 5.520 10.795 35.880 40.885 ;
+      LAYER met1 ;
+        RECT 4.210 10.640 37.190 41.040 ;
+      LAYER met2 ;
+        RECT 4.230 10.695 37.170 40.985 ;
+      LAYER met3 ;
+        RECT 3.990 31.640 37.675 40.965 ;
+        RECT 4.400 30.240 37.675 31.640 ;
+        RECT 3.990 28.240 37.675 30.240 ;
+        RECT 4.400 26.840 37.275 28.240 ;
+        RECT 3.990 24.840 37.675 26.840 ;
+        RECT 4.400 23.440 37.675 24.840 ;
+        RECT 3.990 21.440 37.675 23.440 ;
+        RECT 4.400 20.040 37.675 21.440 ;
+        RECT 3.990 10.715 37.675 20.040 ;
+  END
+END water_tank_controller
+END LIBRARY
+

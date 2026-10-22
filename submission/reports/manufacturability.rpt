@@ -1,0 +1,19 @@
+Design Name: water_tank_controller
+Run Directory: /work/runs/water_tank_v2
+----------------------------------------
+
+Magic DRC Summary:
+Source: /work/runs/water_tank_v2/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /work/runs/water_tank_v2/logs/signoff/41-water_tank_controller.lef.lvs.log
+Number of nets: 20                         |Number of nets: 20                         
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /work/runs/water_tank_v2/logs/signoff/44-arc.log
+Pin violations: 0
+Net violations: 0

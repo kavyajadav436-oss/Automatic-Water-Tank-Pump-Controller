@@ -1,0 +1,19 @@
+
+55. Printing statistics.
+
+=== water_tank_controller ===
+
+   Number of wires:                 11
+   Number of wire bits:             12
+   Number of public wires:           6
+   Number of public wire bits:       6
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  7
+     $_ANDNOT_                       1
+     $_MUX_                          2
+     $_NOR_                          1
+     $_OR_                           1
+     sky130_fd_sc_hd__dfxtp_2        2
+
