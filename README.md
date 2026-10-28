@@ -22,3 +22,9 @@ results/final/gds/water_tank_controller.gds
 
 ## Conclusion
 The controller passed its recorded simulation tests and completed the physical-design flow. Timing-library warnings remain in the placement logs and should be considered when interpreting timing results.
+
+## Project Demonstration Video
+
+The video demonstrates the Automatic Water Tank Pump Controller project, including the Verilog design, testbench, simulation results, synthesis report, graphs, and conclusion.
+
+**Watch the project demonstration:** [Click here to watch the video](https://drive.google.com/file/d/1_LjQccPmz8a2guPBFDlZXWMkTS2qYipu/view?usp=sharing)
